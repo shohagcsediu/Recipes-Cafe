@@ -1,0 +1,121 @@
+/* Menu Nav Section */
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+nav img {
+  width: 100%;
+}
+
+/* Search Section */
+.search-input {
+  width: 50%;
+}
+
+.btn-secondary{
+  color: white;
+  background-color: orange;
+}
+
+.bg-warning {
+  background-color: orange!important;
+}
+
+.food-card-warning {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+ /* Meal Food Card Section */
+.food-card-area {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 3%;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.item-thumbnail {
+  height: 250px;
+  object-fit: cover;
+}
+
+.card {
+  height: 100%;
+  background: transparent !important;
+  border: none;
+  border-radius: 0;
+}
+
+.food-card {
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s all ease;
+  background: #E7EAED;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+      rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.food-card:hover {
+  transform: translateX(5px);
+  transition: 0.3s all ease;
+}
+
+#food-details-show {
+  background: orange;
+  position: fixed;
+  width: 50%;
+  top: 5%;
+  left: 50%;
+  transform: translateX(100%);
+  transition: 0.9 all ease;
+}
+
+.food-details-move {
+  transform: translateX(-50%) !important;
+}
+
+.item-details-card .card {
+  margin: auto;
+}
+
+.item.card {
+  width: 80%;
+  margin: auto;
+  height: 120%;
+  background: white !important;
+}
+
+.card-img-top.item {
+  margin: 20px auto;
+  width: 350px;
+  height: 250px;
+  border: 1px solid orange;
+  border-radius: 20px;
+}
+
+/* Meal Item Details  */
+.close-icon {
+  position: absolute;
+  top: 1%;
+  left: -11%;
+  width: 35px;
+  height: 35px;
+  border: 2px solid white;
+  border-radius: 50%;
+  color: orange;
+  font-size: 18px;
+  transition: 0.3s all ease;
+}
+
+.close-icon:hover {
+  background: orange;
+  color: white;
+}
